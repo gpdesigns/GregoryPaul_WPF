@@ -21,3 +21,10 @@ var result = Math.round(numofPies * numofSlicesPerPie / numofPeople);
 var sparkyAte = numofPies * numofSlicesPerPie % numofPeople;
 
 console.log("Sparky got " + sparkyAte + " slices of pizza");
+
+//Problem 4 Calculate the average amount spent on groceries
+var weeklyTotals = [90, 30, 130, 300, 55];
+var amountSpent = weeklyTotals[0] + weeklyTotals[1] + weeklyTotals[2] + weeklyTotals[3] + weeklyTotals[4];
+var result = amountSpent / weeklyTotals.length;
+console.log("You have spent a total of " + "$" + amountSpent + " dollars on groceries over 5 weeks. That is an average of " + "$" + result + " dollars per week");
+
