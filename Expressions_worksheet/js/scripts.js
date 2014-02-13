@@ -9,6 +9,15 @@ console.log("Sparky is " + age + " human years old which is " + result + " in do
 var numofSlicesPerPie = 8;
 var numofPeople = 15;
 var numofPies = 10;
-result = numofPies * numofSlicesPerPie / numofPeople;
+var result = Math.round(numofPies * numofSlicesPerPie / numofPeople);
 
 console.log("Each person ate " + result + " slices of pizza at the party");
+
+// Problem 3 Calculate how many slices sparky will get
+var numofSlicesPerPie = 8;
+var numofPeople = 15;
+var numofPies = 10;
+var result = Math.round(numofPies * numofSlicesPerPie / numofPeople);
+var sparkyAte = numofPies * numofSlicesPerPie % numofPeople;
+
+console.log("Sparky got " + sparkyAte + " slices of pizza");
