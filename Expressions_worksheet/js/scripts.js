@@ -28,3 +28,19 @@ var amountSpent = weeklyTotals[0] + weeklyTotals[1] + weeklyTotals[2] + weeklyTo
 var result = amountSpent / weeklyTotals.length;
 console.log("You have spent a total of " + "$" + amountSpent + " dollars on groceries over 5 weeks. That is an average of " + "$" + result + " dollars per week");
 
+
+//Problem 5 Calculate the discounted price with and without sales tax
+var originalPrice = 35;
+var discountPercent = 0.15;
+var discountTotal = originalPrice * discountPercent;
+var discountPrice = originalPrice - discountTotal;
+var item = "New Shirt";
+var salesTaxPercentage = 0.075;
+console.log(discountPrice);
+var discountedPriceTax = discountPrice * salesTaxPercentage;
+console.log(discountedPriceTax);
+var pricewithTax = discountPrice + discountedPriceTax;
+var pricewithoutTax = discountPrice;
+console.log(pricewithTax);
+console.log("Your " + item + " was originally " + "$" + originalPrice + " , but after a " + discountPercent + " % discount, it is now $" + pricewithoutTax + " without tax, and $" + pricewithTax + " with tax");
+
