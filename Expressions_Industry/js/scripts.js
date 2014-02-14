@@ -15,6 +15,6 @@ calculations.push(contentBorderLeftInput);
 calculations.push(contentBorderRightInput);
 calculations.push(contentMarginLeft);
 calculations.push(contentMarginRight);
-console.log(calculations);
-var totalWidth = calculations[0] + calculations[1] + calculations[2] + calculations[3] + calculations[4] + calculations[5] + calculations[6];
-console.log("The total width of your element if you inputted all whole numbers is " + totalWidth);
+//console.log(calculations);
+var totalWidth = calculations[0] + calculations[1] + calculations[2] + calculations[3] + calculations[4] + calculations[5] + calculations[6]; // find totalwidth by adding all input data
+console.log("The total width of your element if you inputted all whole numbers is " + totalWidth); // give user the totalWidth
