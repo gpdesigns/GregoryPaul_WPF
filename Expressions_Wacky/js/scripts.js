@@ -1,4 +1,4 @@
-// Javascript
+//Gregory Mitchell Feb 13, 2014 Activity: Expression Wacky
 
 var yearBorn = 1955;
 
