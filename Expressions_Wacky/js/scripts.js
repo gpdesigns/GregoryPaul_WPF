@@ -4,7 +4,7 @@ var game = prompt("What's your favorite game series, halo , call of duty, or bat
 switch (game) // start switch
 {
   case "halo" : //case 1
-     alert(game + " costs $42.50");
+     alert(game + " costs $42.50"); // pop up box displaying game and the cost
      break;
   case "call of duty" : // case 2
      alert(game + " costs $43.00");
@@ -17,15 +17,15 @@ switch (game) // start switch
      break;
 }
 var time = prompt("How many hours a day do you play?", "1 hours"); // user input for hours played a day
-switch (time)
+switch (time) start switch
 {
-  case "1 hours" :
+  case "1 hours" : // case1
      alert(time + " Your brain is productive still");
      break;
-  case "2 hours" :
+  case "2 hours" : // case 2
      alert(time + " A little more time playing and you will be a zombie");
      break;
-  case "3 hours" :
+  case "3 hours" : // case 3
      alert(time + " Your wasting your life away");
      break;
   default :
