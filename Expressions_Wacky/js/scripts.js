@@ -1,5 +1,5 @@
 //Gregory Mitchell Feb 13, 2014 Activity: Expression Wacky
-// 
+// wacky expression using switch statement
 var game = prompt("What's your favorite game series, halo , call of duty, or battlefild?", "halo");
 switch (game)
 {
