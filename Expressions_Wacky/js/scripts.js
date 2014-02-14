@@ -20,7 +20,7 @@ var time = prompt("How many hours a day do you play?", "1 hours"); // user input
 switch (time) start switch
 {
   case "1 hours" : // case1
-     alert(time + " Your brain is productive still");
+     alert(time + " Your brain is productive still"); // pop up box with time inputted and message
      break;
   case "2 hours" : // case 2
      alert(time + " A little more time playing and you will be a zombie");
