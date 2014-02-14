@@ -3,7 +3,7 @@
 var contentWidthInput = parseInt(prompt("Have you ever wondered how to properly calculate the total width of an element in HTML?\nEnter in some quick data and I will calculate it for you! \n\nWhat is the width of your content?")); // ask user for width of content and opening message
 var contentLeftPaddingInput = parseInt(prompt("Input Left Padding?")); // prompt for left padding
 var contentRightPaddingInput = parseInt(prompt("Input Right Padding?")); // prompt for right padding
-var contentBorderLeftInput = parseInt(prompt("Input Left Border"));
+var contentBorderLeftInput = parseInt(prompt("Input Left Border")); // prompt for left border
 var contentBorderRightInput = parseInt(prompt("Input Right Border"));
 var contentMarginLeft = parseInt(prompt("Input Left Margin"));
 var contentMarginRight = parseInt(prompt("Input Right Margin"));
