@@ -7,8 +7,3 @@ var totalRepsPerDay = numberofExerciseInput * numberofSetsInput; // multiply num
 //console.log(totalRepsPerDay) test for reps per day; 
 var totalRepsPerWeek = totalRepsPerDay * daysInput; // total reps * daysInput for result
 console.log("Based on your answers you do " + totalRepsPerWeek +  " total reps per week at the gym! WOW"); // Message to user after calculation is complete
-
-//Collect user input to calculate the width of any element in HTML
-var contentWidthInput = prompt("Have you ever wondered how to properly calculate the total width of an element in HTML? \n 
-	Enter in some quick data and I'll calculate it for you! \n\n
-	What is the width of your content?") 
