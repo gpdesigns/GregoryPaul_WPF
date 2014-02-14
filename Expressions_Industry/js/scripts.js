@@ -1,6 +1,6 @@
 //Gregory Mitchell Feb 13, 2014 Activity: Expression Industry
 //Collect user input to calculate the width of any element in HTML
-var contentWidthInput = parseInt(prompt("Have you ever wondered how to properly calculate the total width of an element in HTML?\nEnter in some quick data and I will calculate it for you! \n\nWhat is the width of your content?")); // ask user for width of content and opening message -- all inputs have parseInt to convert user strings to int
+var contentWidthInput = prompt("Have you ever wondered how to properly calculate the total width of an element in HTML?\nEnter in some quick data and I will calculate it for you! \n\nWhat is the width of your content?"); // ask user for width of content and opening message -- all inputs have parseInt to convert user strings to int
 var contentLeftPaddingInput = parseInt(prompt("Input Left Padding?")); // prompt for left padding
 var contentRightPaddingInput = parseInt(prompt("Input Right Padding?")); // prompt for right padding
 var contentBorderLeftInput = parseInt(prompt("Input Left Border")); // prompt for left border
