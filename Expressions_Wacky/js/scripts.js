@@ -29,8 +29,8 @@ switch (time) start switch
      alert(time + " Your wasting your life away");
      break;
   default :
-     alert("That's not a time");
+     alert("That's not a time"); // if none of the times are entered fail safe
      break;
 }
-var name = prompt("What's your name?");
-console.log("Hey " + name + " you spend " + time + " a day playing " + game + ". Mom's say that if you play more then 1 hour a day you are wasting your life away, JUST SAYING");
+var name = prompt("What's your name?"); // last prompt asking for name
+console.log("Hey " + name + " you spend " + time + " a day playing " + game + ". Mom's say that if you play more then 1 hour a day you are wasting your life away, JUST SAYING"); // console log the result of all the questions
