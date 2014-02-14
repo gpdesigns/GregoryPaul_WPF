@@ -1,22 +1,22 @@
 //Gregory Mitchell Feb 13, 2014 Activity: Expression Wacky
 // wacky expression using switch statement
 var game = prompt("What's your favorite game series, halo , call of duty, or battlefild?", "halo"); // first user prompt  asking for favorite game
-switch (game)
+switch (game) // start switch
 {
-  case "halo" :
+  case "halo" : //case 1
      alert(game + " costs $42.50");
      break;
-  case "call of duty" :
+  case "call of duty" : // case 2
      alert(game + " costs $43.00");
      break;
-  case "battleField" :
+  case "battleField" : // case 3
      alert(game + " costs $49.50");
      break;
   default :
-     alert("I don't recognize that game refresh page");
+     alert("I don't recognize that game refresh page"); // if none of the above are entered
      break;
 }
-var time = prompt("How many hours a day do you play?", "1 hours");
+var time = prompt("How many hours a day do you play?", "1 hours"); // 
 switch (time)
 {
   case "1 hours" :
