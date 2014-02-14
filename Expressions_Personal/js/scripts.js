@@ -6,4 +6,4 @@ var numberofSetsInput = prompt("How many sets total for all exercises?");
 var totalRepsPerDay = numberofExerciseInput * numberofSetsInput;
 console.log(totalRepsPerDay);
 var totalRepsPerWeek = totalRepsPerDay * daysInput;
-console.log("Based on your answers you do " + totalRepsPerWeek +  "total reps per week at the gym!")
+console.log("Based on your answers you do " + totalRepsPerWeek +  " total reps per week at the gym! WOW")
