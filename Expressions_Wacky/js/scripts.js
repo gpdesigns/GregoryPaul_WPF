@@ -1,6 +1,6 @@
 //Gregory Mitchell Feb 13, 2014 Activity: Expression Wacky
 // wacky expression using switch statement
-var game = prompt("What's your favorite game series, halo , call of duty, or battlefild?", "halo");
+var game = prompt("What's your favorite game series, halo , call of duty, or battlefild?", "halo"); // first user prompt  asking for favorite game
 switch (game)
 {
   case "halo" :
