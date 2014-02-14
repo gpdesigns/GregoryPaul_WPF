@@ -16,7 +16,7 @@ switch (game) // start switch
      alert("I don't recognize that game refresh page"); // if none of the above are entered
      break;
 }
-var time = prompt("How many hours a day do you play?", "1 hours"); // 
+var time = prompt("How many hours a day do you play?", "1 hours"); // user input for hours played a day
 switch (time)
 {
   case "1 hours" :
