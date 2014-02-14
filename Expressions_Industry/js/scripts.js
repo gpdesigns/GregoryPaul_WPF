@@ -5,7 +5,7 @@ var contentLeftPaddingInput = parseInt(prompt("Input Left Padding?")); // prompt
 var contentRightPaddingInput = parseInt(prompt("Input Right Padding?")); // prompt for right padding
 var contentBorderLeftInput = parseInt(prompt("Input Left Border")); // prompt for left border
 var contentBorderRightInput = parseInt(prompt("Input Right Border")); // prompt for right border
-var contentMarginLeft = parseInt(prompt("Input Left Margin"));
+var contentMarginLeft = parseInt(prompt("Input Left Margin")); // prompt for left margin
 var contentMarginRight = parseInt(prompt("Input Right Margin"));
 var calculations = new Array();
 calculations.push(contentWidthInput);
