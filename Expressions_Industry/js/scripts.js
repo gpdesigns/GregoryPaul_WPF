@@ -1,7 +1,7 @@
 //Gregory Mitchell Feb 13, 2014 Activity: Expression Personal
 //Collect user input to calculate the width of any element in HTML
 var contentWidthInput = parseInt(prompt("Have you ever wondered how to properly calculate the total width of an element in HTML?\nEnter in some quick data and I will calculate it for you! \n\nWhat is the width of your content?")); // ask user for width of content and opening message
-var contentLeftPaddingInput = parseInt(prompt("Input Left Padding?"));
+var contentLeftPaddingInput = parseInt(prompt("Input Left Padding?")); // prompt for left padding
 var contentRightPaddingInput = parseInt(prompt("Input Right Padding?"));
 var contentBorderLeftInput = parseInt(prompt("Input Left Border"));
 var contentBorderRightInput = parseInt(prompt("Input Right Border"));
