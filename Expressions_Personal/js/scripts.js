@@ -5,3 +5,4 @@ var numberofExerciseInput = prompt("How many exercises do you do while at the gy
 var numberofSetsInput = prompt("How many sets total for all exercises?");
 var totalRepsPerDay = numberofExerciseInput * numberofSetsInput;
 console.log(totalRepsPerDay);
+var totalRepsPerWeek = totalRepsPerDay * daysInput;
