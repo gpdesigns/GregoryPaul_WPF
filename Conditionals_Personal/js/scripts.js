@@ -31,7 +31,13 @@ if(x > y) {
 }
 
 
-// Display the results in a Web page:
+// Display the results in console:
 console.log("Data Input Using Prompts and Assignment Statements \n");
 console.log("The values of x and y are x = " + x + " and y = " + y);
 
+// Display the results in console:
+     console.log("x + y is " + sum);
+     console.log("x - y is " + difference);
+     console.log("x * y is " + product);
+     console.log("x / y is " + quotient);
+     console.log("x % y is " + remainder);
