@@ -30,3 +30,8 @@ if(x > y) {
   console.log("Either you didn't enter a number or the value are the same");
 }
 
+
+// Display the results in a Web page:
+console.log("Data Input Using Prompts and Assignment Statements \n");
+console.log("The values of x and y are x = " + x + " and y = " + y);
+
