@@ -6,16 +6,17 @@ if (who == "") { // error checking to make sure name is entered if not default v
 }
 // display prompt box that ask for favorite color and 
 // store result in a variable called favcolor
-var favcolor = prompt("What is your favorite color");
-if(favcolor == "") { // check to make sure user enters color if not default used
+var favColor = prompt("What is your favorite color");
+if(favColor == "") { // check to make sure user enters color if not default used
 	alert("You need to enter a color");
 	var colorDefault = document.bgColor="pink";
 	document.write("<h1>Hello 'USER' this is the default color</h1>");
 	document.bgColor=colorDefault;
-} else if (favcolor !== "") {
+	console.log("Hello 'USER' your favorite color is " + colorDefault);
+} else if (favColor !== "") {
 // Change background color to their favorite color
-	document.write("<h1>Hello " + who + ", " + favcolor + " is is your favorite color</h1>");
-	document.bgColor = favcolor;
-	console.log("Hello" + who + " your favorite color is " + favcolor);
+	document.write("<h1>Hello " + who + ", " + favColor + " is is your favorite color</h1>");
+	document.bgColor = favColor;
+	console.log("Hello" + who + " your favorite color is " + favColor);
 }
 
