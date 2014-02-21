@@ -13,17 +13,17 @@ if(who == "" && favColor == "") { // check to make sure user enters color if not
 	document.write("<h1>Hello 'USER' this is the default color</h1>");
 	document.bgColor=colorDefault;
 	console.log("Hello 'USER' your favorite color is " + colorDefault);
-} else if (who !== "" && favColor == "") {
+} else if (who !== "" && favColor == "") { // if user enters color and not a name
 // Change background color to their favorite color
 	document.write("<h1>Hello " + who + " this is the default color</h1>");
 	document.bgColor="pink";
 	console.log("Hello " + who + " your favorite color is " + colorDefault);}
-else if (who == "" && favColor !== "") {
+else if (who == "" && favColor !== "") { // if user enters a name and not a color
 // Change background color to their favorite color
 	document.write("<h1>Hello 'USER' this is your favorite color</h1>");
 	document.bgColor=favColor;
 	console.log("Hello 'USER' your favorite color is " + favColor);}
- else {
+ else { // if user has entered both name and color
 	document.write("<h1>Hello " + who + " this is your favorite color</h1>");
 	document.bgColor=favColor;
 	console.log("Hello" + who + " your favorite color is " + favColor);
