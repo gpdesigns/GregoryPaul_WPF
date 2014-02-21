@@ -16,5 +16,6 @@ if(favcolor == "") { // check to make sure user enters color if not default used
 // Change background color to their favorite color
 	document.write("<h1>Hello " + who + ", " + favcolor + " is is your favorite color</h1>");
 	document.bgColor = favcolor;
+	console.log("Hello" + who + " your favorite color is " + favcolor);
 }
 
