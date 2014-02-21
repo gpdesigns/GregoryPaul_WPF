@@ -1,5 +1,5 @@
 //Gregory Mitchell Feb 20, 2014 Activity: Conditionals Personal
-//Collect user info for a purchase
+//Collect user info and determine which is larger and then do some calculations with them 
 var x, y;
 var sum, difference, product, quotient, remainder;
 
