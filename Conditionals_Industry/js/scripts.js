@@ -12,5 +12,9 @@ if(favcolor == "") { // check to make sure user enters color if not default used
 	var colorDefault = document.bgColor="pink";
 	document.write("<h1>Hello 'USER' this is the default color</h1>");
 	document.bgColor=colorDefault;
-
+} else if (favcolor !== "") {
+// Change background color to their favorite color
+	document.write("<h1>Hello " + who + ", " + favcolor + " is is your favorite color</h1>");
+	document.bgColor = favcolor;
+}
 
