@@ -1,7 +1,7 @@
 //Gregory Mitchell Feb 20, 2014 Activity: Conditionals Industry
 //Collect user info and change the color of the screen
 var who = prompt("What is your name");
-if (who == "") {
+if (who == "") { // error checking to make sure name is entered if not default value used in conditional
 	alert("You must enter a name");
 }
 // display prompt box that ask for favorite color and 
