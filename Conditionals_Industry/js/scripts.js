@@ -4,5 +4,7 @@ var who = prompt("What is your name");
 if (who == "") {
 	alert("You must enter a name");
 }
+// display prompt box that ask for favorite color and 
+// store result in a variable called favcolor
 
 
