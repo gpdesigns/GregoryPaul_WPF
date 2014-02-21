@@ -2,7 +2,9 @@
 // wacky conditionals body fat index 
 var name = prompt("Please enter your name");
 var time = parseInt(prompt("On the average, how long does it take you to get ready in the morning?\nTen Minutes, Twenty Minutes, Thrity Minutes, Foutry Minutes, Fifty Minutes, Sixty Plus\nEnter the number in the box"));
-
+if(time <= 1 || >= 100) {
+  Math.round(time, 10);
+}
 switch (time) {
   case 10:
   console.log(time + " minutes is very quick " + name + " there is no way you are female");
