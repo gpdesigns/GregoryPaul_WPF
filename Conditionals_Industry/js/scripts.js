@@ -6,5 +6,5 @@ if (who == "") {
 }
 // display prompt box that ask for favorite color and 
 // store result in a variable called favcolor
-
+var favcolor = prompt("What is your favorite color");
 
