@@ -7,4 +7,10 @@ if (who == "") {
 // display prompt box that ask for favorite color and 
 // store result in a variable called favcolor
 var favcolor = prompt("What is your favorite color");
+if(favcolor == "") { // check to make sure user enters color if not default used
+	alert("You need to enter a color");
+	var colorDefault = document.bgColor="pink";
+	document.write("<h1>Hello 'USER' this is the default color</h1>");
+	document.bgColor=colorDefault;
+
 
