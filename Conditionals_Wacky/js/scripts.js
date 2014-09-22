@@ -1,4 +1,4 @@
-//Gregory Mitchell Feb 20, 2014 Activity: Conditionals Wacky
+//Gregory Paul Feb 20, 2014 Activity: Conditionals Wacky
 // wacky conditionals time to get ready 
 var name = prompt("Please enter your name");
 var time = parseInt(prompt("On the average, how long does it take you to get ready in the morning?\nTen Minutes, Twenty Minutes, Thrity Minutes, Foutry Minutes, Fifty Minutes, Sixty Plus\nEnter the number in the box"));

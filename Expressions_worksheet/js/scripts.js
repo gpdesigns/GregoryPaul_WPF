@@ -1,4 +1,4 @@
-// Gregory Mitchell Feb 13, 2014 Activity: Expression Worksheet
+// Gregory Paul Feb 13, 2014 Activity: Expression Worksheet
 // Problem 1 Calculate Sparky's age
 var age = 3;
 var result= age * 7;
